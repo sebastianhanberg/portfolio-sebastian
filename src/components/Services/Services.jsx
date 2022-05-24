@@ -31,10 +31,7 @@ const Services = () => {
                             <BsCheck className='service__list-icon' />
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
                         </li>
-                        <li>
-                            <BsCheck className='service__list-icon' />
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-                        </li>
+
                     </ul>
                 </article>
 
@@ -60,10 +57,7 @@ const Services = () => {
                             <BsCheck className='service__list-icon' />
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
                         </li>
-                        <li>
-                            <BsCheck className='service__list-icon' />
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-                        </li>
+
                     </ul>
                 </article>
 
@@ -89,10 +83,7 @@ const Services = () => {
                             <BsCheck className='service__list-icon' />
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
                         </li>
-                        <li>
-                            <BsCheck className='service__list-icon' />
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-                        </li>
+
                     </ul>
                 </article>
             </div>

@@ -65,7 +65,7 @@ header {
     white-space: nowrap; 
     margin: 0 auto;  
     animation: 
-      typing 3.5s steps(60, end),
+      typing 7.5s steps(140, end),
       blink-caret .75s step-end infinite;
   }
 

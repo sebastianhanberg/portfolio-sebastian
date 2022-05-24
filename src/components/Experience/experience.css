@@ -54,6 +54,10 @@
         padding: 1rem; 
         
     }
+
+    #experience h5{
+        margin-top: 15rem;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -64,5 +68,9 @@
     .experience__container > div {
         width: 100%; 
         padding: 2rem 1rem; 
+    }
+
+    #experience h5{
+        margin-top: 25rem;
     }
 }
