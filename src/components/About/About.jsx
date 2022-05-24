@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import MeAbout from '../../assets/me-about.jpg'
+import MeAbout from '../../assets/me-about-1000.jpg'
 import { FaAward } from 'react-icons/fa'
 import { FiUsers } from 'react-icons/fi'
 import { AiOutlineFolderOpen } from 'react-icons/ai'
