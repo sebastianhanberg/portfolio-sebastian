@@ -36,14 +36,13 @@ const About = () => {
                             <AiOutlineFolderOpen className='about__icon' />
                             <h5>Projects</h5>
                             <small>10+ completed</small>
+                            <br />
+                            <small>& counting</small>
                         </article>
                     </div>
 
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Tenetur asperiores expedita, cum minus, rem ratione autem
-                        perspiciatis reiciendis officia obcaecati debitis id quaerat,
-                        dolorum earum est voluptatibus deleniti dolores ex!
+                        Newly graduated front end developer-student who always been interested in IT, web development and system development.
                     </p>
                     <a href="#contact" className='btn btn-primary'>Let's Talk!</a>
 
