@@ -68,7 +68,8 @@ input, textarea {
     }
 
     #contact {
-        margin-top: 12rem; 
+        margin-top: 12rem;
+         
     }
 }
 
@@ -77,8 +78,8 @@ input, textarea {
       
       width: var(--container-width-sm);
   }
+
  
-    
 }
 
 

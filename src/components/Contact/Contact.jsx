@@ -15,11 +15,8 @@ const Contact = () => {
         e.preventDefault();
 
         emailjs.sendForm('service_sfexxyp', 'template_z4bc7py', form.current, 'user_AGEMUUUPkcS4bEs2s49NQ')
-            .then((result) => {
-                console.log(result.text);
-            }, (error) => {
-                console.log(error.text);
-            });
+
+        e.target.reset()
     };
     return (
         <section id="contact">
@@ -52,7 +49,7 @@ const Contact = () => {
                     <input type="text" name="name" placeholder='Your Full Name' required />
                     <input type="email" name="email" placeholder='Your Email' required />
                     <textarea name="message" rows="7" placeholder='Your Message' required></textarea>
-                    <button type="submit" className='btn btn-primary'>Send Message</button>
+                    <button type="submit" className='button btn btn-primary'>Send Message</button>
                 </form>
             </div>
         </section>
