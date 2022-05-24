@@ -19,7 +19,7 @@ const data = [
         image: IMG2,
         title: 'Bokavemdalen Bygg',
         github: 'https://github.com/sebastianhanberg/bokavemdalen-bygg',
-        demo: 'https://.com'
+        demo: 'https://bokavemdalenbyggab.netlify.app/'
     },
     {
         id: 3,
