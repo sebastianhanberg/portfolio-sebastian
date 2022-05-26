@@ -10,6 +10,7 @@ const data = [
         id: 1,
         image: IMG1,
         title: 'Exentor',
+        undertitle: 'Soon to be done project..',
         github: 'https://github.com/sebastianhanberg/exentor',
         demo: 'https://exentor.netlify.app/'
     },
@@ -17,6 +18,7 @@ const data = [
         id: 2,
         image: IMG2,
         title: 'Bokavemdalen Bygg',
+        undertitle: 'Soon to be done project..',
         github: 'https://github.com/sebastianhanberg/bokavemdalen-bygg',
         demo: 'https://bokavemdalenbyggab.netlify.app/'
     },
@@ -24,6 +26,7 @@ const data = [
         id: 3,
         image: IMG3,
         title: 'Photo By Forsberg',
+        undertitle: 'early project for fun',
         github: 'https://github.com/sebastianhanberg/sebastianhanberg.github.io',
         demo: 'https://sebastianhanberg.github.io/'
     }
@@ -37,11 +40,12 @@ const Portfolio = () => {
 
             <div className="container portfolio__container">
                 {
-                    data.map(({ id, image, title, github, demo }) => {
+                    data.map(({ id, image, title, undertitle, github, demo }) => {
                         return (
                             <article key={id} className='portfolio__item'>
                                 <div className="portfolio__item-image">
                                     <img src={image} alt={title} />
+                                    <small>{undertitle}</small>
                                 </div>
                                 <h3>{title}</h3>
                                 <div className='portfolio__item-cta'>
