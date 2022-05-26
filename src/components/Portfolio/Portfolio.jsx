@@ -3,6 +3,7 @@ import './portfolio.css'
 import IMG1 from '../../assets/portfolio7.jpg'
 import IMG2 from '../../assets/portfolio8.jpg'
 import IMG3 from '../../assets/portfolio9.jpg'
+import IMG4 from '../../assets/portfolio0.jpg'
 
 
 const data = [
@@ -24,11 +25,11 @@ const data = [
     },
     {
         id: 3,
-        image: IMG3,
-        title: 'Photo By Forsberg',
+        image: IMG4,
+        title: 'COVID-19 Tracker',
         undertitle: 'early project for fun',
-        github: 'https://github.com/sebastianhanberg/sebastianhanberg.github.io',
-        demo: 'https://sebastianhanberg.github.io/'
+        github: 'https://github.com/sebastianhanberg/covid19API',
+        demo: 'https://covid19-tracker-byseb.netlify.app/'
     }
 ]
 
