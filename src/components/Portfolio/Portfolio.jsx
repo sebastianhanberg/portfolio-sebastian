@@ -3,8 +3,7 @@ import './portfolio.css'
 import IMG1 from '../../assets/portfolio7.jpg'
 import IMG2 from '../../assets/portfolio8.jpg'
 import IMG3 from '../../assets/portfolio9.jpg'
-import IMG4 from '../../assets/portfolio4.jpg'
-import IMG5 from '../../assets/portfolio5.png'
+
 
 const data = [
     {

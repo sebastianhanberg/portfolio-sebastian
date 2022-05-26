@@ -3,7 +3,7 @@ import './contact.css'
 import { MdOutlineMail } from 'react-icons/md'
 import { BsLinkedin } from 'react-icons/bs'
 import { ImGithub } from 'react-icons/im'
-import { FaSteam } from 'react-icons/fa'
+
 
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser';

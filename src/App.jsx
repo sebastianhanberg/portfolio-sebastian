@@ -14,7 +14,7 @@ import './index.css'
 
 const App = () => {
     return (
-        <>
+        <div id="main">
             <Header />
             <Nav />
             <About />
@@ -24,7 +24,7 @@ const App = () => {
             {/* <Testimonials /> */}
             <Contact />
             <Footer />
-        </>
+        </div>
     )
 }
 
